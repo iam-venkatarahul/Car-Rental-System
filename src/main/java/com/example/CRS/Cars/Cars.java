@@ -15,6 +15,9 @@ public class Cars {
 	public String CarNumber;
 	public String FuelType;
 	
+	public Cars() {
+		
+	}
 	
 	public Cars(long carId, String carName, String carNumber, String fuelType) {
 		super();

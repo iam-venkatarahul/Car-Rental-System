@@ -4,4 +4,6 @@ import java.util.List;
 
 public interface CarService {
 	List<Cars> findAllCars();
+
+	void CreateCar(Cars car);
 }
